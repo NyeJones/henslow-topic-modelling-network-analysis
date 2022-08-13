@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1236">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To William Hutton 30 January 1840</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>William Hutton Papers</collection>
+                        <idno>B:H978</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1840-01-30">30 January 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_393.xml">Hutton, William</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham, Bildeston, Suffolk</placeName>
+                        <date>30 Janr 1840</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I wish much to see an authentic specimen of Pecopteris heterophylla Pl.38. I have some beautiful specimens (of Sedgwick's) of what I consider to be decidedly P. Mantelii from the Felling Colliery, but the veins are forked like those of all the allied species excepting heterophylla - &amp; I suspect that there must be some mistake in that instance.</p>
+                        <p>I cannot find any of the lobes of the pinnules or pinnulae of Pecop. Lonchitiea (plate 153) so much pointed as they are represented to be in the Syl.2.A. Brong.ts 83 Pl a are very different!</p>
+                        <p>Pray don't let me bother you to answer every quere I send - but if I neglect to make a mem. at the time. I may perhaps forget what I wish to ask you. My chief object was to secure attention in case you were transmitting specimens. In future I shall keep a sheet for memoranda, &amp; not forward it till I know when you are about to send me a box, &amp; I can then let you know my wishes. I have no doubt about the blunt <hi rend="underline">straight</hi> extremities of calamites being the bases of stems with roots as at Pl.78&amp;79 &amp; it was from Pl.22 of C. mongeottii that I felt convinced that the <hi rend="underline">curved</hi> extremities were all bases of branches - which I can no where find asserted. By the by, Sternbergh has referred to the <hi rend="underline">fractured</hi> branch of your C. mongeottii as a proof of a dichotomy! The joint above fractured in <hi rend="underline">opposite</hi> direction clearly shows what it is. I had suspected Artis's Filicites osmundae to be a portion of N. heterophylla but afterwards considered it must be distinct &amp; altogether new - no way allied to C. Beanii but closely so to N. Villiersii. I have not heard from Brongniart &amp; fear my letter must have miscarried. I think I told you that I had received some drawings of a new Stigmaria from the Leeds Society - with a description - &amp; which I think will answer your purpose very well. I wish I could spend a week in the Coal Mines myself - it would enable me to form a more correct judgment which rather, or not <hi rend="underline">rather</hi>, puzzle me at present. Pray don't trouble yourself to answer me merely because I write. I was surprised to see the date of your letter the 28th till I saw the postmark was 27th as I could not imagine how I cd receive it in 2 days.</p>
+                        <p>Yrs very truly</p>
+                        <p>J. S. Henslow</p>
+                        <p>How does the Structure of Coal progress?</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

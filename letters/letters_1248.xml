@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1248">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Sir J. F. W. Herschel 13 May 1843</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Royal Society</repository>
+                        <idno>RS:HS 9.309</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1843-05-13">13 May 1843</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_230.xml">Herschel, Sir J. F. W.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Philosophical Socy Cambridge</placeName>
+                        <date>13 May 1843</date>
+                        <salute>My dear Sir John</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I am quite guiltless of the Camomilic recipe, I can assure you; &amp; know not who may have taken my name, as it seems, to my credit - thus unduly obtained. The Wasp cure I can certainly lay claim to, &amp; you will find it a very efficacious remedy. I employed it for the sake of procuring specimens of Wasp-nests. My plan was to place (at night) a small saucer of spirits of turpentine close to the hole &amp; invert a flower pot over the hole &amp; saucer, taking care to earth it round &amp; stopper the hole at the bottom of the pot. I dug up the nests in 36 hours afterwards often found to answer this purpose. I have known a <hi rend="underline">neglected</hi> non-flowering Cactus suddenly form a multitude of flowering buds. It was over-luxuriant till it was allowed to remain without water for a longer time than usual. In the E. Indies, the roots of some of our fruit trees are occasionally exposed for a time, when they are over luxuriant &amp; produce none but leaf-buds, &amp; the check thus given them induced the development of flower buds. I do not think that in general salt seems to be of much value as a stimulant to vegetation. If used, it should be in small doses. Guano is of universal use. I <hi rend="underline">think</hi> it is recommended to add a pound to 4 gallons of water for garden purposes - &amp; again to add 4 gallons to the <hi rend="underline">same</hi> for obtaining a second dose of liquid manure. I saw this also in the Gardeners Chronicle last year. I have no idea where you can procure plenty of Deodar seeds - but I will ask Lindley when I happen to write to him as I shortly shall&amp; I have no doubt he can tell me. I shall be very much obliged by a copy of the paper you refer to on the action of light on vegetable colours. If sent to my Brother's address in London I shall get it - or he can send for it wherever it may be convenient for you to leave it.</p>
+                        <p>S. W. Henslow Ese 13 Clements Inn</p>
+                        <p>I have only Saturday morning for a holiday whilst here, or I would have replied earlier.</p>
+                        <p>Believe me</p>
+                        <p>very truly yrs</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

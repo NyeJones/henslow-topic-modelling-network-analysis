@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1240">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To William Hutton 25 June 1840</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>William Hutton Papers</collection>
+                        <idno>B:H978</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1840-06-25">25 June 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_393.xml">Hutton, William</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham</placeName>
+                        <date>25 June 1840</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I send you Mr Teale's drawings as you may wish to make arrangements about them, if you think they ought to be engraved. Without seeing the specimens I can hardly tell what to make of them - but they appear to be undescribed. Perhaps you may have an opportunity of looking more into the question. Be so good as to let me have his letter again. I am daily expecting your novelties &amp; plates. I did not answer your last as I was very busy in Cambridge - but I now present you many thanks for your exertions about the paper. Your description with the account I read in the Encyclopedia &amp; some vague recollections have enabled me to understand the process I think completely. I shall endeavour to look over a paper mill near St Albans where I hope to be about July 9. I shall be absent from here from July 7th to 17th - having to examine at the Univy. of London &amp; then attend the August meeting at Cambridge - after that I shall probably not stir till the Glasgow meeting.</p>
+                        <p>Can you send me notices of <hi rend="doubleUnderline">any</hi> papers that may have appeared in our Journals or other-wise on Fossil Bot. I have not an accurate list myself. Someone mentioned a recent paper in (I think) the Nat. H. Magazine where <hi rend="underline">all</hi> the described species were referred to. When I go to Cambridge I will hunt for it, if you cannot refer me offhand to it. I will give you a programme of projected Village Lectures in case any thing should chance to occur in which you can help me.</p>
+                        <list rend="simple">
+                            <item>July 1. Laws of Vegetation</item>
+                            <item>22. Glass &amp; Silica</item>
+                            <item>29. Pottery &amp; aluminium</item>
+                            <item>Aug 5. Laws of Vegetation</item>
+                            <item>12. Carb. of Lime</item>
+                            <item>19. Electricity</item>
+                            <item>Sep 2. Laws of Vegetation</item>
+                        </list>
+                        <p>I shall always give a new subject on the first Wednesday of the month - &amp; on other Wednesdays <hi rend="underline">during summer</hi> repeat an old lecture out of doors in the evening pro bono publico.</p>
+                        <p>Yrs ever truly</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

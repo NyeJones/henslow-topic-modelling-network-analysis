@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1205">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To J. C. Dale 14 February 1826</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford University Museum of Natural History</repository>
+                        <collection>Archive Collections, James Charles Dale Collection</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1826-02-14">14 February 1826</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_300.xml">Dale, J. C.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Cambridge</placeName>
+                        <date>14 Feby 1826</date>
+                        <salute>My dear Dale,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>When I wrote to you before I was not half so anxious about the Election as I am at present. Since then I have been acting as Chairman to Ld P's committee &amp; should therefore feel much obliged to any of my friends who would favour me with whatever information they can respecting the intentions of themselves or others whether adverse or favourable. We are going on very steadily &amp; I am in great hopes that our old &amp; honourable Member will not be ejected merely because he happens to differ from the majority of the University on one particular question upon which his opinions have been always known. Can you favour me with Bulwer's address. I wrote to him at Portland Street Dublin but my letter has been returned. How admirably your friend Curtis is getting on with his work. Are you likely to visit Wittlesea mere this season. L. Jenyns &amp; I intend to visit Gamlingay in May to look for plants &amp; Insects. He took several specimens of Panagaeus Crux major from a willow tree which I believe you reckon very rare. Our Cambridgeshire Fauna is getting on very well &amp; I mean as far as additions to the species of Beasts, Birds, &amp; Insects is concerned.</p>
+                        <p>Yrs very sincerely</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

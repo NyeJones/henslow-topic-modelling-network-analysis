@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1209">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To J. C. Dale 30 July 1832</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford University Museum of Natural History</repository>
+                        <collection>Archive Collections, James Charles Dale Collection</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1832-07-30">30 July 1832</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_300.xml">Dale, J. C.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>12 Gloucester Row, Weymouth</placeName>
+                        <date>30 July 1832</date>
+                        <salute>My dear Dale,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>If you arrive in sufft. time we shall be happy to have you &amp; Mr Morris at dinner today at 5 1/2 o'clock - otherwise you will perhaps favor us by coming up to tea &amp; arranging plans for tomorrow. I have been twice to Portland, but shall be very happy to make a 3d trip under your auspices. I am afraid I cannot accompany you to G. Wotton [sic] as I am here on <hi rend="underline">duty</hi> &amp; can not leave my pupils for any time.</p>
+                        <p>Yrs very truly</p>
+                        <p>J. S. Henslow</p>
+                        <p>Perhaps our best plan is to take a boat across to Portland for the day - which we can manage for 8/-</p>
+                        <p>[On envelope: "J. C. Dale esq. Crown Inn Weymouth Mr D. will be there tonight"]</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

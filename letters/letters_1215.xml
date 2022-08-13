@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1215">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To J. C. Dale 27 November 1834</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford University Museum of Natural History</repository>
+                        <collection>Archive Collections, James Charles Dale Collection</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1834-11-27">27 November 1834</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_300.xml">Dale, J. C.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Cambridge</placeName>
+                        <date>27 Nov. 1834</date>
+                        <salute>My dear Dale,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I received 2 days ago a valuable packet of insects from you, for which I beg to return my best thanks. I have not much time for collecting myself, but have put up a few dups. as you bid me return any thing not wanted, for the sake of Tyrones [?], &amp; I think it better to keep all that you have sent, as there is scarcely one that is not highly acceptable to me. I could not help smiling at some misunderstanding into which you must have fallen at my observations about the expense of the Snowflakes, &amp; my misunderstanding the comparative scarcity in which they grow. I am always most willing to pay the carriage for a good bundle of fresh specimens of any local plant &amp; thinking that you could procure Snowflakes as thickly as snowflakes fall in winter, I wished to hint at the superior advantages of paying for 100 specimens rather than for 6. I generally employ a man in Suffolk to send me annually a basket full of the Fritillaria meleagris (Snakeshead) per coach, which he does for a crown, &amp; I willingly pay the carriage &amp; distribute the specimens among my Class. I thought perhaps you could make some such arrangement for me with a snowflake digger - but from what you say they must be in two scanty numbers. The same with Lobelia urens. I was quite out when I supposed they were to be got in any abundance at the place where they grew. Don't suppose me a stingy fellow who cares for the payment of the carriage of a fair parcel of specimens! Gamms is away but I will keep his Insects for him. I have sent Power his. The color of Lobelia Dortmanna is a pale tint of purplish blue (I believe) for I never saw it in flower myself. When I was at Loch Katrine in Septr. it was all gone to seed. L. Jenyns has just despatched his report on Zoology to the press in which you will find that he considers Curtis's work <hi rend="underline">without a rival</hi> in the way of illustration.</p>
+                        <p>Believe me ever</p>
+                        <p>Yours most truly</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

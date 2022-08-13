@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1169">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From William Buckland 11 September 1833</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Huntington Library</repository>
+                        <idno>mssHM 70385</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_256.xml">Buckland, William</persName>
+                    <date when="1833-09-11">11 September 1833</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Muddeford near Christ Church Hants</placeName>
+                        <date>11 Sept 1833</date>
+                        <salute>My Dear Professor</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Your letter of the 5th has but this day reached me here in the centre of 37 formations &amp; about one league nth of the Great Fault &amp; line of elevation of the Isles of Wight &amp; Purbeck - one week out of 4 which I have destined to pass here has done much for the restoration of Mrs Buckland's health - &amp; I think a whole Month will completely [text illegible] her.</p>
+                        <p>As to the subject of your letter it will be a grand discovery if you can make out the Portland Beds in your region of the [text illegible] so I hope you will collect all possible shells from the quarries when you suspect its presence I shd rather guess you have [text illegible] upon those calcareous forms of the Green Sand Group wh constitute the Kentish Rag &amp; indeed that these much resemble the Portland. </p>
+                        <p>The test nowhere lies in the [text illegible] with respect to the Great Gault Pit 1 mile from Ely - which is very curious my notion is that as far as I recollect something like this.</p>
+                        <p>[pencil sketch of section through pit] C diluvial clay &amp; pebbles of all sorts &amp; sizes A B</p>
+                        <p>Standing in the pit with your face to Ely you have on the left a fragment of highly enriched bottom chalk undercut &amp; having the hollows filled by the Diluvium, the left 1/2 of the front section is all Diluvium made of clay containing chalk flints - Pebbles of Forest Marble &amp; drifted huge Septaria derived from the Oxford Clay - on the Rt. front &amp; R. flank under the continuation of this Diluvium - are Horizontal Beds of Gault &amp; no other trace of Oxford Clay but the great (Drifted Boulders in the Diluvium. The workmen call the Diluvial Clay full of pebbles Gault as well as the regular strata on the R - &amp; make no distinction. I recollect something of a fault but whether it is at A. or B. I can not tell not having here my Memoranda. As this chalk is so highly inclined &amp; the Gault so horizontal a fault separating the chalk has probably formed the trough between A &amp; C which has been subsequently filled up with Diluvium &amp; but for that wd have been an open valley. Pray examine this chalk which tho very rubbly still retains its stratification.</p>
+                        <p>I am very glad that you have put your S American bones with the hands of Clift. He has had good practice at mending in the case of the megatherium brought home by Mr Parrish</p>
+                        <p>We were much gratified with the Adam &amp; Eve Chamber - the only drawback being the recollection that we could not form part of the crew of your Barge</p>
+                        <p>yrs Always very truly</p>
+                        <p>W. Buckland</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1207">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To J. C. Dale 10 January 1828</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford University Museum of Natural History</repository>
+                        <collection>Archive Collections, James Charles Dale Collection</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1828-01-10">10 January 1828</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_300.xml">Dale, J. C.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Cambridge</placeName>
+                        <date>10 Jan 1828</date>
+                        <salute>My dear Dale,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I was not aware or had forgotten that you were no longer a member of our Socy. - &amp; feel the greater pleasure at receiving a subscription (especially so handsome a one) from you. I think we shall now raise the money. We have turned the 200£ since the circular was sent &amp; are in expectation of several more money. L. Jenyns will thank you for the hints you send respecting the Ringouzel &amp; sandmartin. I am truly vexed that we did not meet at Rochester. I hunted, myself, for the Locust but could neither see nor hear any thing of him. I know his call well &amp; sd. have found one if he had been there. I suppose like many other insects these periods of plenty are uncertain. The first time I caught it, I took about 20 or 30 in the same field - most of which I gave to Leach. I have heard from Leach twice this year, from Rome. He sent me a small packet of plants by Dr Goodall. His letters are quite collected. L. Jenyns has added some good things to the Cambridge Insects this year but he is not here to enumerate them. I am very busy just now preparing to examine the "όι πολλοί". So good bye</p>
+                        <p>Yrs sincerely</p>
+                        <p>J. S. Henslow</p>
+                        <p>P.S. you need not forward the subscription til an opporunity offers.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

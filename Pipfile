@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bertopic = "*"
+ipykernel = "*"
+ipywidgets = "*"
+pandas = "*"
+spacy = "*"
+cufflinks = "*"
+plotly = "*"
+gensim = "*"
+pathlib = "*"
+natsort = "*"
+bs4 = "*"
+datetime = "*"
+nltk = "*"
+lxml = "*"
+pyldavis = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

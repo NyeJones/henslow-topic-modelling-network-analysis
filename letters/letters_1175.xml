@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1175">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From John Bright 30 December 1845</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Princeton University Library Special Collections</repository>
+                        <collection>John Bright Letters (C0140)</collection>
+                        <idno>AM9906</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_388.xml">Bright, John</persName>
+                    <date when="1845-12-30">30 December 1845</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Rochdale</placeName>
+                        <date>Dect. 30. 45.</date>
+                        <salute>Dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I am much obliged to you for your interesting letter &amp; its enclosures. The more I examine the Game question, the more I discover its odious character &amp; the necessity of doing something to abate its ills - and yet I am compelled to admit its difficulties are of a very formidable kind. The labours of the Comtee will I expect be resumed when the session opens &amp; my opponents will call their witnesses, from whose evidence I expect at least as good results as from my own. The repeal of the Corn Law will do much to reduce the Game nuisances, as will open competition, high rents can only be had by good cultivation &amp; a more business like management of Land. I am no friend to Govt systems of <hi rend="underline">Colonisation</hi> - if land were well cultivated many more labourers would be employed &amp; I am of opinion that with good cultivation &amp; steady &amp; extending trade there would be ample employment &amp; fair wages for all our population. You say the laborers are eating <hi rend="underline">Swede Turnips</hi> as <hi rend="underline">sauce</hi> to their bread - at the same time the monopolists are calling a public meeting in Bury to oppose the repeal of the Bread Tax! Verily the squires seem resolved to provoke an explosion of the places in which they are dwelling. I hope our efforts may succeed in saving them in spite of themselves, &amp; that the time will come when they will thank us for our exertions in opposition to their ignorance.</p>
+                        <p>The West Riding Election will in all probability be a <hi rend="underline">walkover</hi> for Lord Morpeth. The Corn Law has few ardent friends in their district - this event, coming so soon after our great Subscription Meeting in Manchester a week ago will I trust stimulate Sir R. Peel to do the only wise thing, which is to propose a Bill for the total &amp; immediate repeal of the Corn Law.</p>
+                        <p>I am very truly yours</p>
+                        <p>John Bright</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

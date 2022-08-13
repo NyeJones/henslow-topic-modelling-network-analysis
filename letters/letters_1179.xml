@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1179">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To John Gould 29 Sept 1853</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Natural History Museum Library and Archives, London</repository>
+                        <collection>The Correspondence of John Gould (1804-1881)</collection>
+                        <idno>Z MSS GOU A (Box 5)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1853-09-29">29 Sept 1853</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_378.xml">Gould, John.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham Hadleigh Suffolk</placeName>
+                        <date>29 Sept 1853</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I feel very much obliged by the trouble you have taken in attending to my request. I fear I am sometimes more importunate than I ought to be in my endeavouring to procure objects for such purposes as the enclosed Programme will tend to explain. As I did not hear from you I determined to postpone my Wasp &amp; Bee lecture for another occasion. The Birds arrived too late for me to unpack them yesterday in the midst of the multitudinous arrangements I had on hand - and today I was obliged to pass 6 1/2 hours in the Justice Room at Hadleigh &amp; have only just opened the box (after post hours). Though I can seldom afford to indulge myself in purchases in Natural history beyond my own <hi rend="underline">natural</hi> line of Botany, I shall be tempted to keep Mr Ledbetter's Birds, &amp; will send him a cheque for them as soon as I can recover his account from amidst the confusion in which the events yesterday have thrown my papers &amp; the whole house. We were fortunate in our day, and every thing went off as we could wish - barring a cold &amp; horseness which prevented my exerting my lungs as I ought. We had a long booth to contain 300 tea drinkers - a small one to contain a model extemporized by my daughters - perhaps as complete a thing of the sort as you ever saw, with its fountain, its flower garden, &amp; cricket field &amp; Marquee &amp;c. Then my Marquee Museum with such specimens as I could command, all properly mounted on stands with several pictures &amp; diagrams in illustration. You would have smiled to see some of my shifts to make things work well - old cotton reels, pasteboard &amp; black varnish on my [text illegible]. Your Bower Bird plates hung up in a conspicuous situation - with half a dozen of your little favourites (their skins, but not stuffed) disposed under a glass case (of home manufacture) &amp; so arranged as living as to display their colours - backed by the views of your Humming Bird house &amp; your portrait as given in the Illustrated London News. Such a medley of things good, &amp; things trumpery (to suit all tastes) you never saw collected under a Marquee! One advantage of such an exhibition is, that it tends to promote natural history among the gentry &amp; clergy, several of whom were present. Next Tuesday I am going to Ld. Henniker's, who has got up a Village Hat Show on the same plan &amp; I am to take him some of my objects to assist at a Marquee Museum - &amp; I hope &amp; trust the plan will spread - it seems to give so much pleasure. Objects you would reject as superfluous or useless I should probably work into something - such is my <hi rend="underline">hobby</hi>. Should I be alive &amp; well next July, when we have our next show, I hope to rig out another Museum of this sort, and shall not scruple to ask all Naturalist friends to lend me a helping hand with whatever odds &amp; ends they can spare. Anything that admits of a <hi rend="underline">tale</hi> being appended to it is most serviceable - but almost anything assists. [text illegible], I exhibited a common <hi rend="underline">Millipede</hi> (as you will see) by the side of a fine large exotic centipede, because one of our Labourers had asked me a fortnight before what was the meaning of the word, he having met with it in a book (he is one of the few that <hi rend="underline">can</hi> read, of the older men) &amp; was puzzled to know whether it was a [text illegible], vegetable, or animal. Though hundreds [text illegible] in the Marquee, nothing was injured. It has taken me nearly a month's hard work to put the materials in train - &amp; I think you would have been surprised at the amount of decorations in laurel wreaths, flowers &amp; [text illegible] prepared by the spontaneous efforts of my family. We all went through as hard a days work as can well be done, &amp; one or two of us were tolerably knocked up, not to say ill. I don't mean myself - for though I was thoroughly fagged with my cold in the head and body &amp; did as much (at least) as any, I bear such matters as well as most. However all went off really well &amp; all dispersed peacefully &amp; happily. Tomorrow I have to put away things &amp; make up accounts &amp; so write at once that I may not longer delay my thanks to you. Among the objects I take to Thornham will be your plates of the Bower Birds which always afford great pleasure. <hi rend="underline">Page 6 read next page first</hi> If I could persuade you to come to one of our shows, I think you would be pleased to see what interest some of our villagers take in inspecting the wonders of a Marquee Museum - though you could not fail to smile at its contents when you remembered what sort of figure they would cut beside any real Museum.</p>
+                        <p>Believe me</p>
+                        <p>very truly yrs</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

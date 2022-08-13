@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1155">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Adam Sedgwick 6 November 1858</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>The Scientists Collection I</collection>
+                        <idno>509.L56</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_160.xml">Sedgwick, Adam</persName>
+                    <date when="1858-11-06">6 November 1858</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Cambridge</placeName>
+                        <date>Novr. 6 1858</date>
+                        <salute>My dear Henslow</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I am confined to my room by a vile stupifying cold, &amp; at present good for nothing in the way of work. But I have been trying to answer some letters, which load my file. Yours of Octr 31 is among them. I am plucked to the very bone but I do not know how to refuse an application from you. So pray put me down Sovreign and dun me for it when we next meet.</p>
+                        <p>I saw your son the other day &amp; was much interested by his account of a well sinking, on your coast, down into a slate rock. I had heard of it before but doubted of it. I hope you are all flourishing upon the glacial drift of Hitcham. My Lectures fatigue me - only 3 a week. - My 40th and <hi rend="underline">last</hi> course: &amp; the meetings in our <hi rend="underline">Combination room</hi>, about our new statutes, bother my senses. The reason of my frequent giddiness is that my brain is shrunk thro' age &amp; too big for its skull bone. Kind regards to your daughters.</p>
+                        <p>I was not well during my Norwich residence in September. Frequent attacks of giddiness prevented me from preaching. Dick &amp; his wife, their four children &amp; two nurses, over and above my own household - so filled my residence that Fanny Hicks was obliged to sleep out at the Deanery. Isabella was detained at Dent by her father's horrible sickness.</p>
+                        <p>I went to see him early in October &amp; remained as long as I could.</p>
+                        <p>We had a very sorrowful parting for I did not think that I should ever see his living form again. I never [text illegible - page torn] of Mr Ralfs &amp; his work on the Desmidiaea, but wish you all success in your application.</p>
+                        <p>Ever yours affectionately</p>
+                        <p>A Sedgwick</p>
+                        <p>P.S. I am writing as a sheep (as I have now discovered) [text illegible - page torn] which I had ten days since made a start &amp; come to a rather premature stop.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

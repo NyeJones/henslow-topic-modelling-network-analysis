@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1250">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To George Ransome 21 August 1848</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Royal Society</repository>
+                        <idno>MS/682/21</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1848-08-21">21 August 1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_394.xml">Ransome, George</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>H. H. S.</placeName>
+                        <date>21 Aug 1848</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Have you got a specimen of the "Vegetating Caterpillar" of New Zealand in your Museum? If not, I have just got a duplicate given me, &amp; would put it up for you in a glass tube as I have my own specimens. I mean the <hi rend="underline">Sphaeria Robertsii </hi> which attacks &amp; destroys caterpillars &amp; then fructifies out of the scape of their necks. I fear you will think me over importunate if I ask whether you can give me the required hint as to the sort of Book I mentioned. If you think "Lindley's Vegetable Kingdom" not out of place I will get <hi rend="underline">that</hi> &amp; send it.</p>
+                        <p>Ever sincerely Yrs</p>
+                        <p>J. S. Henslow</p>
+                        <p>I can send <hi rend="underline">native</hi> naphtha &amp; petroleum, if you like, in bottles to accompany <hi rend="underline">Asphalt</hi></p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

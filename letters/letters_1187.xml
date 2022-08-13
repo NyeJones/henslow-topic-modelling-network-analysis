@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1187">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Nathaniel Wallich 17 November 1831</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Royal Asiatic Society Archives</repository>
+                        <idno>GB 891 HTC/1/41</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_375.xml">Wallich, Nathaniel</persName>
+                    <date when="1831-11-17">17 November 1831</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>61 Frith Str Soho</placeName>
+                        <date>17 Novr 1831</date>
+                        <salute>My Dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Have this day forwarded to Mr Hunneman sections of palm stems and of Cycas (most interesting this last) for the purpose of their being sent to you for the University Museum. A letter and list accompany the specimens which I shall be truly happy to learn have not proved quite unworthy of acceptance. Do not think that because the number of the sections now presented reaches to 39 either the species in this collection or even the sections amount to any such sum. In many instances where the same trunk had been cut in half a dozen parts, - root - middle, top - crown &amp;c and to each a separate number had been given at the time in India. These numbers I have still retained altho it is obvious that 3/4 of them refer to one and the same subject. A good number too were destroyed on the voyage, especially the tops &amp; crowns. However, such as they are they will no doubt serve the purposes for which they were intended when I wrote for them (since my arrival in this country.) -</p>
+                        <p>Hope that this letter may find you and your amiable family in the enjoyment of perfect health. Kindly present my respectful compliments to Mrs Henslow; tell her, and be appraised yourself, that I shall never forget what I owe both to you &amp; her for the genuine hospitality I enjoyed while under your roof, and for the glorious treat I experienced among the kind professors at Cambridge.</p>
+                        <p>Be so good as to mention also to Prof Sedgwick that I did not avoid doing what I offered &amp; promised to do - to write to a dear &amp; zealous friend of mine, Mr S. Calder at Calcutta concerning the Poona apophyllite. I did not in fact allow the night of Tuesday last to close upon me without finishing and sealing my letter - and it is now in the city to proceed by the first opportunity. I have taken care if I should be away against the period of a reply arriving - it will find its way to Cambridge together with the specimen, which I make no doubt will be forthcoming. Remember me kindly I beg of you to that eminent man; also to Messrs Whewill [sic], Peacock &amp; Upton. The latter gentleman has truly &amp; really done me a most essential service for which I am very grateful. Until lately I could not boast even of the prior vice cotis -  for no razor with which I have ever been blessed was ever sharpened by any of straps or hones that I could employ. How different the state of things now: what was heretofore a process of many tears and [text illegible] is now one of pleasure I could share twice a day! But a thousand repeated thanks for Mr Upton's kindness which is painful only in as far as it has deprived him of a valuable apparatus.</p>
+                        <p>Your letter &amp; packet for Mr Brown was sent to him on the day of my return; so was the letter for Mr Gray.</p>
+                        <p>Adieu, my dear sir. God bless &amp; preserve you &amp; yours is the sincere wish of</p>
+                        <p>Yours truly and obliged</p>
+                        <p>N. Wallich</p>
+                        <p>I am happy to say I am perfectly well.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

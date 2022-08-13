@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1206">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To J. C. Dale 26 February 1826</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford University Museum of Natural History</repository>
+                        <collection>Archive Collections, James Charles Dale Collection</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1826-02-26">26 February 1826</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_300.xml">Dale, J. C.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Cambridge</placeName>
+                        <date>26 Feb. 1826</date>
+                        <salute>My dear Dale,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I am extremely obliged to you for favouring me with your intentions &amp; only regret we do not go together. I confess that if you suppose a vote for Ld P wd be considered in the present case as likely to be looked upon as declamatory of your sentiments upon the Catholic question you are perfectly right in not giving him your support but I hope you will excuse me when I say that a numerous body of Anticatholic members of Univy. have consented to waive this consideration in favour of an old &amp; honourable member who has represented the interests of Government for 16 yrs and never made a mystery of sentiments upon this one point.</p>
+                        <p>Dr Wood &amp; every resident fellow of St Johns (except one) support him, and no men are more anticatholic than Johnians indeed our Master drew up the very last petition that was presented against them. I do not presume to say this with any idea of canvassing you to alter your determination - but <hi rend="underline">if</hi> your scruples against Ld P shd. arise from a supposition that his supporters are not many of them AntiCatholic perhaps you will excuse me undeceiving you in this particular. In fact he has so many AntiCatholics among his voters that no one can be esteemed a supporter of the Cath. claims merely from the circumstance of his voting for him. You mention a Mr Wynch as plumping for Bankes but I can't find his name in the Calendar &amp; don't know what College he is of.</p>
+                        <p>In reply to your hint respecting the Conocephalus I can only say that I devoted the greater portion of 2 days to search for them last August &amp; could only meet with 2 mutilated specimens both males - one of which I gave to Curtis &amp; the other to Kirby. I had not forgotten my promise to you, as well as to Bulwer Stephens &amp; one or two others, &amp; had I met with greater success would most faithfully have kept them - but as I cd. not do so without dividing 2 specimens into 1/2 a dozen pieces I preferred sending the insects whole to 2 of our greatest authors in entomology. Stevens has already a specimen or 2 &amp; I should therefore have sent you the very next I caught had I been so fortunate as to have met with another. But the fates forebad it.</p>
+                        <p>Believe me</p>
+                        <p>Yrs very sincerely</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

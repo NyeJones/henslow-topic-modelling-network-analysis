@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1232">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To William Hutton 22 December 1839</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>William Hutton Papers</collection>
+                        <idno>B:H978</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1839-12-22">22 December 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_393.xml">Hutton, William</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham, Bildeston - Suffolk</placeName>
+                        <date>22 Dec. 1839</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I lose no time in replying to your letter of yesterday - to thank you for the offer of sending me duplicates. I should think the readiest mode of conveyance will be to send them to Ipswich, where they may be deposited at some wharf, &amp; I can easily get some of my farmers, who take their corn there, to fetch them for me. If none happen to be going there our village coal merchant (if he may be called one) fetches my coals from thence &amp; will bring any weight at the rate of 10/- the Ton! I shall write to Brongniart with whom I am personally acquainted &amp; propound our intentions to him. The shell I called Planorbis? is probably not quite that genus, having the whorls dilated - but no doubt it is the same which is familiar to you - with respect to the impression which at first sight I thought might be wings of Ephemeridae - they may prove to be the impressions of the nervation of some leaf faintly traced out - but I have not examined them attentively since I wrote. Have you thought of impregnating the coal with Canada balsam warmed? or shell-lac in spirit of wine? or a solution of Amber or Copal? It will be well worth while trying every thing that suggests itself. Would you (if not too troublesome) send me specimens illustrative of the working of coal. The section of a mine - each variety &amp;c. I am forming a general collection of all objects of nature &amp; art, for the sake of instructing &amp; amusing my parishioners to whom I give lectures occasionally. My last for instance was Quartz &amp; Glass. Of the former I showed them most of the forms under which the chief Siliceous minerals occur &amp; thus explained the process of Glass making by exhibiting specimens of the whole process. The sand, potash, red-lead, Nitre, borax, frit, proofs, the clays used in making the crucibles, some of the Instruments used, the oxides (4 of them at least) used in colouring glass. The substances as sand, pumice, putty, &amp; wheels used in polishing &amp; lastly sundry <hi rend="underline">glazious</hi> curiosities as a fragment of Roman glass &amp;c. This will give you a notion of what I want in other cases - &amp; if you who are in the midst of manufactures can give us a helping hand you will tend to open the understanding of a set of people who for the most part know little more than the horses they drive, &amp; think of little else beyond eating &amp; drinking. All plates for illustrations I find very useful. The great thing is to have something to <hi rend="underline">show</hi> &amp; then I can make use of this as a peg to hang some information upon it. In the summer I lectured pro bono publico on my lawn under a marquee - &amp; had a considerable attendance of one sort &amp; another. Some were so zealous as never to miss a lecture. Many thought me a conjurer, especially in chemical experiments. Mr Bowman has written to offer his aid towards the Flora &amp; says he has a very singular fossil which he wishes to know whether you would like it to be engraved &amp; then he would forward it to me for inspection. Perhaps you had better write to him on the subject &amp; state your wishes. The fossil is at present in Mr Brown's hands. Sedgwick is sending me next week about 150 specimens from the Cambridge Museum for inspection. If there is anything new I will let you know. Have you anything to do with the drawing &amp; engraving of the plates. I think there should always be a magnified portion given à la Brongniart. I think too there should always be a specific character -  for there is much uncertainty without it.</p>
+                        <p>Yrs ever truly</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

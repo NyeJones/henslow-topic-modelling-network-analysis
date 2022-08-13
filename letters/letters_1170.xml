@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1170">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From E. B. Ramsay 20 October 1832</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Huntington Library</repository>
+                        <idno>mssHM 70387</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_102.xml">Ramsay, E. B.</persName>
+                    <date when="1832-10-20">20 October 1832</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Dunmany Street Edinburgh</placeName>
+                        <date>Oct 20 1832</date>
+                        <salute>My Dear Henslow</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I have frequently intended writing to you &amp; have only delayed untill I knew you were returned &amp; quietly settled in your comfortable house at Camb. &amp; had received the usual [text illegible] of your useful &amp; interesting avocations. I hope &amp; trust your dear &amp; excellent wife is well &amp; enjoying renewed health &amp; strength. Mrs Ramsay has been a subject of great anxiety to me all the summer - thank God she is recovering. I have to congratulate you (wh I do most cordially) your preferment. I hope it is worth your acceptance &amp; is a substantial advantage to yourself &amp; family. I have also to express my pleasure at finding my nephew William Ramsay is to be under your careful &amp; excellent tuition. When I corresponded about a tutor for him I never adverted to the <hi rend="underline">possibility</hi> of your receiving him &amp; when his father told me of the prospect I congratulated him on the many advantages I anticipated for his son. He is I believe a good lad, I fear somewhat constitutionally indolent &amp; perhaps his [text illegible] youth may be injurious to activity &amp; mental energy. I have a request made to me to introduce to you a Mr Mundie who desires introduction &amp; advice regarding his son being entered at Camb. I am told that he has a letter to you from Lyell the geologist &amp; I am sure he requires no further claim upon you for your advice &amp; assistance. If you see him please to say I had mentioned him to you &amp; that I was from home when applied to or I should have done it sooner. I have at length commenced the arrangement of my British plants. With my [text illegible] for M's &amp; with some of my better lichens I shall have a respectable collection. It has been indeed a melancholy occupation; I tried it several times before but I could not till lately go on with the work &amp; now I find a melancholy pleasure in retracing the scenes &amp; times with [text illegible] many specimens presented. I must admit however that the most interesting &amp; the rarer part of my collection is from <hi rend="underline">your</hi> contributions. I have got Hooker's Flora (2d edit.) &amp; am much pleased with it. He is an exquisitely clear botanical writer &amp; I rejoice at the frequent mention of your own name. I am glad that he arranges the Flora in the Lin. System. I still think that for a Local flora it is the best. The natural system being a grouping of families allied by certain analogies - what do we learn when of so many families there is but one individual &amp; therefore if its nature as a group we can know nothing. I doubt not Lindley is a first rate botanist - his introduction to the natural orders &amp; his "first principles" show that he is so. [text illegible], but why shd that he say that in studying Lin. botany we were only <hi rend="underline">seeming</hi> to learn. I should like to ask what is there to learn respecting British plants wh the E. Flora does not teach. Surely <hi rend="underline">that</hi> is the most complete Flora of a country ever produced or am I wrong. There was a precision &amp; neatness in the [text illegible] that almost makes me regret the change of the language. I am most unreasonable to <hi rend="underline">beg</hi>, after the kindness I have received - but any such <hi rend="underline">supernumeraries</hi> of plants wh you may spare &amp; which I may not be likely to have will be gratefully received. Some plants common in England I never happened to see: one is the Hyd. morsusranae. I am strong in [text illegible] of that I had the Lath. [text illegible] but I fear it is rare. I have from an old herbarium seen Hyb. from Glastonbury Tor that is what your Sir J. E. Smith used to call a <hi rend="underline">"good thing"</hi> I have a friend who sends me the [text illegible] &amp; I have set him to hunt for it &amp; [text illegible] specimens. Bye the bye why do you say that Senecio squalidus is not <hi rend="underline">native</hi> on walls of Oxon. Why shd a plant so destitute of moment be cultivated or brought into the country? Do you know from whom dear M. could have got a very fine specimen of Cyp. calceolus marked from woods at Craven Yorksh? I have been spending the last week at Dalhousie Castle - you know Lord D. has lately returned from India where he was commander in chief. Lady D. is an indefatigable botanist and collector she has brought home from the Cape - Ceylon - St Helena - Calcutta - Himalaya Mts [text illegible] &amp;c such quantities of fine specimens. I often wished for you. I was interested in looking them over specifically as so many rare fine species of our own genera, but I could not [text illegible], at least to any purpose. A package of 500 specimens are in London from Ceylon - a present to Lady Dalhousie - collected &amp; all named by a good botanist - they will be interesting. Dr Graham made a succesful time in the Clova Mountains this summer - verified some of J. Donn's doubtful observations. He will furnish you with specimens I am sure. This would be a nice botanical tour for you next summer. You <hi rend="underline">must</hi> come to Scotland. Did you see anything or make anything of Ld Moseley's son? I have not seen any of the family lately, but have an invitation for a visit early next month. What beautiful specimens you make! Can you let me into any of your <hi rend="underline">secrets</hi>? This is a rigmarole but I am not to let our intercourse [text illegible] any.</p>
+                        <p>With our united best regards to you and Mrs H.</p>
+                        <p>Believe me [text illegible] &amp; affectionately</p>
+                        <p>E. B. Ramsay</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1231">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To William Hutton 27 November 1839</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>William Hutton Papers</collection>
+                        <idno>B:H978</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1839-11-27">27 November 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_393.xml">Hutton, William</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham near Bildeston, Suffolk</placeName>
+                        <date>27 Nov 1839</date>
+                        <salute>Dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I have given up my residence in Cambridge &amp; am now here all the year round except for one month in the spring. I have been examining all the fossil plants (not very many) at command - having brought here such as I have of my own, &amp; Sedgwick has sent me some from the Woodwardian. I devote a portion of every morning to the subject. Any that you can send had better be directed to me at "Philosophical Society Cambridge" &amp; they will then be forwarded as occasion serves. But if you will write on the box <hi rend="doubleUnderline">Fossils</hi> I will leave word that they shall be sent at least within a week after their arrival. Pray let me have any duplicates you can spare, for the purpose of comparison. I suppose you have no control over the plates of your work - otherwise I should ask you to let me have a spare set for ready reference. I have the book, but I like to have a set of plates arranged properly to refer to. Would it not be admissable in publishing any specimens which are not yet figured in Brongniart to send him a copy of the plates to identify the specimens with his own &amp; so avoid synonyms. I don't know whether this could be readily done. It would detract nothing from the originality of your observations &amp; would be useful to science. I have just met with half a dozen shells which look like a small species of Planorbis &amp; some faint impressions which I think are wings of Ephemeridae upon the stem of a Lepidodendron, (the <hi rend="underline">Ulodendron minus</hi> of Lindley). I don't know whether these have been noticed before. Mr Bowman has written to offer his assistance in the loan of specimens. I don't know exactly at what intervals the Flora used to appear. I think it was quarterly - or irregularly.</p>
+                        <p>Believe me</p>
+                        <p>very truly Yrs</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1226">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To William Buckland 10 July 1845</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford University Museum of Natural History</repository>
+                        <collection>Archive Collections</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1845-07-10">10 July 1845</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_256.xml">Buckland, William</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham Hadleigh Suffolk</placeName>
+                        <date>10 July 1845</date>
+                        <salute>My dear Buckland,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I have been to Colchester &amp; have seen the cutting thro' the London clay by the Railroad people - also sundry Crab [?] &amp; other nodules from the said clay - also Mr I. Brown's collection of nodules from Highgate. I have no doubt left that the Felixstow nodules are the L. C. nodules rolled &amp; +/- altered. The appearance of spirality in the long ones is (as you said) due to attrition - the laminae being originally concentric cylinders. I have a specimen from the London clay which looks most uncommonly like an <hi rend="underline">altering</hi> mass of bone or tusk, &amp; seems to throw light upon the origin of the dendritic appearances in the Felixstow &amp; Cambridge nodules. I have no evidence to show against the idea of the phosphate of lime having been +/- digested matter - (not coprolites but coprolitic) nor yet any to support it - &amp; therefore (for the present) these nodules must be placed (I presume) in the same category with Septaria - concretions sui generis - the question undetermined whence the phosphate of lime has been derived. Quere whether the <hi rend="underline">ejecta</hi> of medusae may have originated some of them? They spue out calcium &amp; crustacea very imperfectly digested - their juices abstracted by the shells scarcely touched. As you are Dr of Coprolitology in all its departments you may be able to say whether such a fancy is likely to afford a hint or not. I have told the Ed. of Bury Post to send you today's paper in which I have made some allusion to the Suffolk nodules. I expected Sedgwick here yesterday to visit Felixstow today but neither his person or reasons for not coming have made their appearance - like him! I pass thro' London next Tuesday &amp; shall be in town for the Friday night afterwards &amp; if you should happen by chance to be coming up perhaps we can meet at the Geol. Soc. between 2 &amp; 3 on Friday?? &amp; I can bring you some of the New Light nodules from the London clay. Kind regards to Mrs Buckland. Mrs Henslow has felt herself decidedly improving during the last week. She has now been an invalid in her room for 7 months &amp; we cannot hope for recovery for months to come.</p>
+                        <p>Ever yrs truly</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

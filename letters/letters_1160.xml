@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1160">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Henry Coleman 26 June 1846</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cambridge University Library</repository>
+                        <idno>MS Add.8856/292</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_384.xml">Coleman, Henry</persName>
+                    <date when="1846-06-26">26 June 1846</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>London</placeName>
+                        <date>26 June 1846</date>
+                        <salute>My dear Sir</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I pray you to excuse what I fear you will consider gross negligence on my part which I beg you to be assured is not intentional. I am not insensible to your kindness but the truth is I have been sorely pressed and have not until recently determined my plans; and now to add to my vexation I have unfortunately mislaid your last letter &amp; after a long search have given it up in despair.</p>
+                        <p>My Agricultural work has now progressed through six nos and the seventh is in the press &amp; the eighth in preparation. This will complete what I have to say of England in an agricultural view. I have then two numbers to give on Continental Agriculture after I visit the Continent. But in the meantime I am collecting materials &amp; have in preparation a work upon "England in its moral &amp; social aspects", which will give me more latitude to say what I wish; and the great object of which is to inquire in a philanthropic view what is doing and what can be done for the improvement of the condition of those depressed &amp; unfortunate classes who are now so much &amp; so justly the objects of benevolent regard. In this I know you can essentially aid me, if in another way by the free communication of your opinions material as they have been by experience &amp; experiment, and by a knowledge of the results of your active operations in the sphere around you.</p>
+                        <p>I shall therefore most gladly avail myself of your friendly &amp; most acceptable invitation to visit you &amp; I shall promise not in the slightest degree to interfere with your convenience. Your suggestion as to the mornings would be quite an inducement with me to visit you as my mornings are as important to me as yours to yourself &amp; the fear of losing which compels me frequently to decline very kind invitations. I cannot now fix a time. It cannot be however until my Agriculture is finished; &amp; I will previously communicate with you so that it shall entirely conform to your own convenience.</p>
+                        <p>I am anxious to send you my First Volume which is now completed &amp; bound. If you have any opportunity of sending to Wiley &amp; Putnam's, American Publishers 6 Waterloo Place London, they will deliver one to your order, or if you will put me in the way of doing it, I will send one immediately.</p>
+                        <p>I am, my dear Sir,</p>
+                        <p>With great regard</p>
+                        <p>Yrs truly</p>
+                        <p>Henry Coleman</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

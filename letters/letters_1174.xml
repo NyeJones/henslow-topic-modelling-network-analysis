@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1174">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Sir J. F. W. Herschel 7 May 1843</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Morgan Library and Museum, New York</repository>
+                        <collection>Literary and Historical Manuscripts (LHMS)</collection>
+                        <idno>103295, MA 23327</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_230.xml">Herschel, Sir J. F. W.</persName>
+                    <date when="1843-05-07">7 May 1843</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Collingwood</placeName>
+                        <date>May 7/43</date>
+                        <salute>My dear Sir</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I shall make a practice of procuring your "Letters", - I have sent your prospectus of them into the hands of our most active &amp; intelligent Farmer in this Parish.</p>
+                        <p>I have availed myself of a piece of knowledge which bears your name, with good effect. My Greenhouse was horribly infested by aphides. This year I put Camomile pots in it - and there are almost <hi rend="underline">none</hi>. <hi rend="underline">If</hi> it be the Camomile and not the season, never was cure more effectual. I read also in a newspaper that you recommend spirits of turpentine versus wasps. We are infested here beyond imagination with them. 17 nests were blown up or smoked out with squibs last summer in our walks by my boys. This year I shall inject them with turpentine &amp; hang up turpentine sponges in our Grape-house. I should think camomiles planted among hops would protect them from "Fly"?</p>
+                        <p>Believe me my dear Sir</p>
+                        <p>yours very truly</p>
+                        <p>J. F. W. Herschel</p>
+                        <p>Pray can you tell me what will make <hi rend="underline">obstinate Bulbs</hi> of the genera Gladiolus - Watsonia - Antholyza - Babiana - Brunswickia - flower. Will Salt do it? And in what way &amp; in what doses ought Salt to be administered? I have several (all Cape Species) which root &amp; leaf well and produce offsets but which neither here nor in their natural place (where I had them under culture) have I <hi rend="underline">ever</hi> seen them flower.</p>
+                        <p>Is Guano, or Sulphate of Ammonia Good for Bulbs? - Can you send me in a way to procure seeds of the Deodar Pine? I have just had given me a <hi rend="underline">very few</hi> but as I understand it is an apt grower &amp; beautiful tree I should like to establish a nursery of them.</p>
+                        <p>Where in London can I send you a copy of my paper on the action of light on vegetable colours which contains facts that may interest you?</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

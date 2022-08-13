@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1246">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Sir J. F. W. Herschel 30 November 1848</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Royal Society</repository>
+                        <idno>RS:HS 9.311</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1848-11-30">30 November 1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_230.xml">Herschel, Sir J. F. W.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham Hadleigh Suffolk</placeName>
+                        <date>30 Novr 1848 (after post)</date>
+                        <salute>My dear Sir Jn.</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I received your letter (curiously enough) as I was starting to deliver the Lecture of which I send you a programme. I made such enquiry as I was able, of Mr G. Ransome &amp; Mr C. May, the latter of whom told me he was acquainted with you, &amp; could afford any further information you might desire. The institution is at present in its infancy, but there is every hope of its prospering beyond many such in the Kingdom. There are some 5 or 6 private telescopes in the hands of pretty constant observers - these are parties who are likely to make use of your book. In the Library they have the Greenwich Observations presented by Airy &amp; these are frequently referred to by some of the parties who observe. You are perhaps aware that Airy has delivered a course of Lectures on Astronomy this year at Ipswich, &amp; that he is in some measure connected with the plan, &amp; I doubt not could give you a very definite opinion as to whether your work would be duly appreciated, where I can only speak from what I hear. Mr May showed me materials for a Telescope he is constructing with an Object Glass for which he lately gave 100£. He already progresses your work himself. I think I cannot say more than express my belief that your work is <hi rend="underline">likely</hi> to be duly appreciated &amp; <hi rend="underline">used</hi> by a small number; but Mrs May or Airy would be able to speak more positively than I <hi rend="underline">dare</hi>. If you should determine on sending it, I suppose it will be direct to G. Ransome Esqr Secretary to the Museum, who has been the prime mover &amp; manager of the whole. It is really very pleasing &amp; surprising to see how much has been done in a twelve-month - &amp; how many appear desirous of profiting themselves by instruction offered. I had an audience of 700, certainly very attentive &amp; anxious to understand me</p>
+                        <p>Yrs very sincerely</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

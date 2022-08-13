@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1251">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Charles Daubeny 17 October 1831</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Magdalen College, Oxford</repository>
+                        <idno>MC:F26/C1/6</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1831-10-17">17 October 1831</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_232.xml">Daubeny, Charles</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Cambridge</placeName>
+                        <date>17 Oct 1831</date>
+                        <salute>My dear Daubeny,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Upton has just brought me your letter &amp; the Conferva. The latter is rather damaged but I will examine it &amp; see if I can make anything of it. I now merely write to say that I shall be most happy to coincide in any views which the Society organised at York may have adopted. I have given my name to Whewell as one of a Cambridge Committee &amp; shall most certainly (if all be well &amp; possible) be at Oxford. I regret exceedingly that I cd. not get to York but it was impossible for me to go there under the circumstances I was placed in with any comfort - expecting daily as I still am to hear of the departure of my Brother to a better world. I have been to see him at intervals lately &amp; have not the slightest hope of his recovery. If it had not been for this circumstance I should have enjoyed the meeting beyond any thing. Mrs Buckland informed me a short time back that you were experimenting upon plants in her garden. I suppose you know Saussure's work. He seems to me to account very satisfactorily for the introduction of various matters into the substance of plants. You must get up a Botanical <hi rend="underline">excursion</hi> for us in the neighbourhood of Oxford, when we come - Captn. Daubeny &amp; Lieutt. Baxter commanding the squad. Only don't sow any rare seeds this autumn to deceive us into the belief that your flora is richer than it is.</p>
+                        <p>Believe me</p>
+                        <p>Very sincerely yrs</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

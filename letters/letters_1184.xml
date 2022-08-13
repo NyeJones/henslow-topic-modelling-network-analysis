@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1184">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To L. Sulivan 13 December 1847</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>John Innes Centre, Library and Archives</repository>
+                        <collection>W. H. Flower Collection</collection>
+                        <idno>12/1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1847-12-13">13 December 1847</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_290.xml">Sulivan, L.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham Hadleigh Suffolk</placeName>
+                        <date>13 Decr 1847</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I forgot, when I wrote, that another packet of duplicates was on its travels, &amp; have not been returned - so I have at present only this smaller one for your two daughters' examination. They are quite welcome to the whole of it - if the specimens would be of use to them - or if there are any they care not to receive they may be returned to me for the chance of their being useful somewhere else. The packet may in this case be addressed</p>
+                        <p>Rev J. S. Henslow</p>
+                        <p>care of Miss Henslows</p>
+                        <p>44 Queen Square</p>
+                        <p>Bloomsbury</p>
+                        <p>My two aunts (very old ladies) are lodging there &amp; will take care of it for me. I am obliged to hurry back to the opening of the Ipswich Mus. on Wednesday - where I hope to find Bp. of Norwich, Sedgwick, Buckland, &amp; some more naturalists taking part in the proceedings. Many thanks for the notice of Grimwood - the last soldiering commission sent to you. With kind regards to the Mrs Sulivan</p>
+                        <p>believe me</p>
+                        <p>Ever truly Yrs</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

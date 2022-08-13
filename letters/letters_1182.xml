@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1182">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To John Gould 28 October 1856</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Natural History Museum Library and Archives, London</repository>
+                        <collection>The Correspondence of John Gould (1804-1881)</collection>
+                        <idno>Z MSS GOU A (Box 5)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1856-10-28">28 October 1856</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_378.xml">Gould, John.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham, Bildeston, Suffolk</placeName>
+                        <date>Oct 28 1856</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Gray tells me he does not know when I am likely to procure a stuffed Beaver at a moderate cost - but does not say what it would cost to procure one. The fact is I have to lecture next Tuesday at Ipswich &amp; should very much like to have a stuffed Beaver, Neutria, &amp; Musksquash on the table. I can't venture to purchase them for the Museum without knowing <hi rend="underline">what</hi> the cost would be - as our finances, like those of most museums, are not over flourishing though we have just enough to get on with. If you can inform me what the price of these animals stuffed ought to be, &amp; where I am likely to procure them I shall feel much obliged. As I leave home tomorrow for Cambridge I would thank you to direct to me at Downing College Cambridge up to Friday night's post. But it just [text illegible] that if you know <hi rend="underline">where</hi> such animals are likely to be - ready stuffed - you could direct the party to send me an account of what they would cost. But they must not be in Ipswich later than Monday night (or they will not be in time for my lecture) if we think proper to purchase them. I <hi rend="underline">have</hi> the skins of these animals, as prepared for Hatmaking, the subject on which I am to lecture. To show the 3 species of British Hare, we have in the Museum the common, &amp; (I find) also the Irish. There is a Scotch Hare in the Cambridge Museum which I hope to borrow, &amp; also one with the monstrous developt. of tooth, which was killed at Bottisham years ago. The Irish Rabbit I suppose I must be content with alluding to, unless a stuffed specimen be procurable at our pocket's capabilities. You must all sadly miss poor Yarrell, whose death was so sudden but to all appearance such as no one <hi rend="underline">sought</hi> to report. We had one, more sudden still, yesterday. The wall of a house (being pulled down) fell on two of our men. Killed one on the spot, &amp; the other is so ill today his life is despaired of. I was witness to a sad scene of affliction at their respective cottages, immediately after they were brought home. Both have wives &amp; families.</p>
+                        <p>Yrs very truly</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

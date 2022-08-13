@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1152">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Lovell Reeve 19 September 1857</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>The Scientists Collection I</collection>
+                        <idno>509.L56</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_380.xml">Reeve, Lovell</persName>
+                    <date when="1857-09-19">19 September 1857</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>London, 5 Henrietta Street, Covent Garden, W.C.</placeName>
+                        <date>Sept 19th 1857</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>When your Hitcham Report came to hand this morning, I was just on the point of writing to you about a work of some extent which my wife has suggested should be presented to the Ipswich Museum. Before Mrs Reeve committed herself to my care she used to occupy herself a great deal at her home (the Revd S. C. E. Neville Rolfe, Heacham Hall near Lynn) in topographical illustration. Mr Rolfe collected all sorts of prints, sent down to him by the London dealers, and Mrs Reeve, amongst other pursuits, made this her special hobby. My Rolfe had all kinds of fancies. He collected coins and shells, and plants, upon all of which my wife worked in turn, but it was of topography and antiquities that she was most fond. She was as long as sixteen years over her native county of Norfolk. She took Bloomfield's Norfolk and inlaid every leaf and illustrated the work thus inlaid with every scrap of print (including numbers of fine portraits) heraldry &amp;c that could be collected relating to the county. When completed the work made up 33 folio volumes; and it is now in the library at the Hall.</p>
+                        <p>At the time of the death of Mr Rolfe Mrs Reeve had been engaged some two or three years collecting materials for the illustration of <hi rend="underline">Suffolk</hi>. She had taken Page's work of about 1000 pages and inlaid them, and an artist, employed by Mr Rolfe to paint the heraldry illustrations, had executed 140 shields. Of prints illustrative of Suffolk Mrs Reeve had collected as many as 784 but only 198 of these are <hi rend="underline">inlaid</hi>. The death of Mr Rolfe and Mrs Reeves' capitulation and flight to Wandsworth put a stop to the work, and there it is at Wandsworth now exactly in the same state as when Mrs Reeve brought it from Heacham. My own pursuits lying in another direction Mrs Reeve really has not time to proceed with the inlaying; and now that we are going to remove into Essex we have obtained the consent of the widow, Mrs Rolfe, to present it either to Bury or to Ipswich. Knowing the interest you take in the Museum at Ipswich and having been formerly interested in that Museum myself I should like the work to go there; but we both feel that it ought to go to whichever town would most appreciate it and furnish some amateur antiquary to complete it.</p>
+                        <p>Would you allow me to send the work down to you. You would see exactly what <hi rend="underline">labour</hi> is wanted to complete it; and might induce someone under a promise of presenting it to undertake the labour. I am, dear Sir</p>
+                        <p>Yours most truly</p>
+                        <p> Lovell Reeve</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

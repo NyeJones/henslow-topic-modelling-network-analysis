@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--OLD FILENAME:letters_4.xml-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-4">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Jenyns   December 1822</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Henslow Correspondence Project</authority>
+            <publisher>Henslow Correspondence Project</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <availability status="restricted">
+                <p>Available under license only</p>
+            </availability>
+            <availability xml:id="displayImageRights" status="restricted">
+                <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+                <licence>This image may be used in accord with fair use and fair dealing provisions, including teaching and research. If you wish to reproduce it within publications or on the public web, please make a reproduction request.</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+
+        </publicationStmt>
+
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository>Bath Royal Literary and Scientific Institution</repository>
+                    <collection>Jenyns Collection</collection>
+                    <idno>Letter 1006</idno>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                        <title copyOf="#main_title"/>
+                    </msItem>
+                </msContents>
+            </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                <date notBefore="1822-12-01" notAfter="1822-12-31">December 1822</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5.xml">Jenyns, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        
+      </profileDesc>
+      <revisionDesc>
+        <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw Jones</name>
+         </change>
+        <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2020-08-10" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>December 1822</date>
+                    <salute>My Dear Leonard.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                  <p>I can not refrain from sending you a list of the addenda which my English plants have just received from Wynch. I have not been able to open a mineralogical book all the morning. Dont die with envy.</p>
+                  <list rend="ordered">
+                      <item>Alisma ranunculoides</item>
+                      <item>Anchusa officinalis</item>
+                      <item>Arenaria verna</item>
+                      <item>Carex capillaris</item>
+                      <item>" pauciflora</item>
+                      <item>Chironia littoralis (with seeds &amp; duplicates!)</item>
+                      <item>Cypripedium calceolus!!!</item>
+                      <item>Convallaria verticillata</item>
+                      <item>from Perthshire!!!</item>
+                      <item>Dianthus arenarius</item>
+                      <item>Draba aizoides</item>
+                      <item>Dryas octopetala</item>
+                      <item>Epilobium alsinifolium</item>
+                      <item>" alpestre</item>
+                      <item>Fumaria lutea</item>
+                      <item>Gentiana verna</item>
+                      <item>Hieracium paludosum</item>
+                      <item>" denticulatum</item>
+                      <item>Juncus squarrosus</item>
+                      <item>Nuphar Kalmiana!</item>
+                      <item>Potentilla fruticosa</item>
+                      <item>Prunus padus</item>
+                      <item>Pyrola minor</item>
+                      <item>Ribes petraeum</item>
+                      <item>Rosa mollis</item>
+                      <item>" tomentosa</item>
+                      <item>" scabriuscula</item>
+                      <item>" glaucophylla</item>
+                      <item>" involuta?</item>
+                      <item>" sabina</item>
+                      <item>" " ?</item>
+                      <item>Rubus glandulosa</item>
+                      <item>Saxifraga aizoides</item>
+                      <item>" caespitosa</item>
+                      <item>Salix Andersoniana male</item>
+                      <item>" Fosteriana female</item>
+                      <item>Sedum villosum</item>
+                      <item>Senecio sylvatica</item>
+                      <item>Spiraea fruticosa</item>
+                      <item>Trientalis Europaea</item>
+                      <item>Veronica alpina</item>
+                      <item>" saxatilis</item>
+                      <item>" fruticulosa</item>
+                      <item>(therefore I have all but verna)</item>
+                      <item>Viola amoena</item>
+                      <item>" Lutea</item>
+                      <item>Zostera marina</item>
+                      <item><hi rend="underline">Ferns</hi></item>
+                      <item>Aspidium dilatatum</item>
+                      <item>Polypodium Dryopteris</item>
+                      <item><hi rend="underline">Mosses</hi></item>
+                      <item>Grimmia leucophaea</item>
+                      <item>Orthotricum Hutchinsiae</item>
+                      <item><hi rend="underline">Lichen</hi></item>
+                      <item>Gyrophora pustulata</item>
+                  </list>
+                  <p>Thereby increasing my collection by 49 species of British Plants &amp; several species of N. American &amp; Lapland + a few duplicates (Ex. Gr. Parnassia palustris &amp;c)</p>
+                  <p>With best respects to your family</p>
+                  <p>believe me,</p> 
+                  <p>Yours ever sincerely</p>
+                  <p>J S Henslow</p> 
+                </div>
+            </div>
+
+        </div>
+
+       
+      </body>
+    </text>
+</TEI>

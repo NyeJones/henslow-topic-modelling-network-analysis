@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1161">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Henry Coleman 12 February 1846</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cambridge University Library</repository>
+                        <idno>MS Add.8856/293</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_384.xml">Coleman, Henry</persName>
+                    <date when="1846-02-12">12 February 1846</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>24 Park St. Islington</placeName>
+                        <date>12 Feb 1846</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I fear you will have set me down as extremely negligent on the presumption that your favor of the 16th ult. reached me in due season; but through the inexcusable negligence of the person to whose care it was addressed it never reached me until last evening. I acknowledge its receipt, and have read your discourse, calculated to do good, with much pleasure. I greatly respect your exertions and labors in behalf of those who certainly need all the good, which can be done for them. My objection to your discourse is that it is too Theological. Mind I do not object to its theology, because without saying whether I agree or do not agree in it, I leave to every honest man the perfect exercise of his own conscience and judgment; but I should have been glad to have seen in a discourse of this nature nothing but what was directly practical, and the freest and plainist mode of dealing with the solemn duties, which you urge upon your hearers, of which mode parts of your discourse show plainly that you understand both the use and the power. I think there never was presented to humanity and Christian philanthropy a wider field for exertion than the condition of the lower classes in England now offers &amp; have the obligations to work seemed more imperative, and are daily increasing in power. If crime &amp; poverty, &amp; crime often growing out of poverty, to the extent in which they now exist are <hi rend="underline">necessarily</hi> incidental to a population so crowded &amp; a wealth &amp; living so exorbitant we must then submit to the stern decrees of Heaven with all the confidence which we can exercise, in his wise &amp; inscrutable designs. But if they can be remedied or abated or alleviated then is it the duty of every Christian man to cast his mite into the treasury of the Lord &amp; to leave nothing practical undone to effect the Good which is so desirable.</p>
+                        <p>I received last night a letter from Leicester, which had been addressed to a personal friend of mine from which I send you an extract, only adding that my own personal observation confirms much of its truth.</p>
+                        <p>"Of the operatives not 2 in 10 can both read and write in all his class. There are whole streets where the attendance at public worship forms the exception to the general conduct of the inhabitants. The poor have fallen away in masses from our churches and chapels &amp; from all intercourse in fact from the higher classes. There is a total and wide disruption between them. The extremes of wealth and poverty, science and ignorance, virtue and vice are more marked &amp; more fearful in their operation than I have ever before witnessed. The rising generation are consequently coming up under very bad influences; their parents seemingly from their wretched physical condition are become a spiritless, hopeless &amp; altogether listless as to the moral state of their children. They scoff at religion and ask "how can we sing praises with hungry bellies? how can we go to church &amp; sit amongst fine folks with never a coat upon our backs? It appears that thousands have never been visited by any minister of religion"</p>
+                        <p>This &amp; much more to the same effect gives certainly a somber picture of the condition of millions in this highly favored &amp; Christian country. Now I say whoever contributes in any form in the slightest measure to the removal of such evils or the alleviation of such physical &amp; moral destitution is entitled to esteem however.</p>
+                        <p>Among some of the best means of alleviating the distresses of the poor &amp; stimulating their good conduct have been the establishment of Loan Societies, where so small a sum as 1/- is lent &amp; never more than one pound to a single individual, which is paid by regular weekly installments. The security is always made perfect by two endorsers &amp; the fulfilment is rigidly enacted both of principal &amp; a moderate interest. It has saved many from utter despondency &amp; the sacrifice of all their little goods at the pawnbrokers &amp; has stimulated their honest exertions in a higher degree. Scarcely a shilling has ever been lost in the loan of many hundreds of pounds.</p>
+                        <p>I am overpressed with work &amp; have not time now to enlarge. I have one or two pamphlets for you if I knew how to forward them without expense. As my soon as my Agcl work is published which I hope will be in two months as far as England is concerned I design to complete my work upon "England in its social and moral aspects" in which I know you can &amp; I hope will aid me. My great object being to show what Philanthropy has to do here &amp; what really is practicable. I am not vain enough to think of <hi rend="underline">effecting much</hi> but the blower of the bellows is quite as essential to the music as the hand that strikes the keys of the instrument.</p>
+                        <p>With respect my dear Sir,</p>
+                        <p>Very truly yrs</p>
+                        <p>Henry Coleman</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

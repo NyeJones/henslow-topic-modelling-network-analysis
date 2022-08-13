@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HENSLOW-1239">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To William Hutton 28 April 1840</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Henslow Correspondence Project</authority>
+                <publisher>Henslow Correspondence Project</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <availability status="restricted">
+                    <p>Available under license only</p>
+                </availability>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>This image may be used in accord with fair use and fair dealing
+                        provisions, including teaching and research. If you wish to reproduce it
+                        within publications or on the public web, please make a reproduction
+                        request.</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>American Philosophical Society Library</repository>
+                        <collection>William Hutton Papers</collection>
+                        <idno>B:H978</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title copyOf="#main_title"/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Henslow, J. S.</persName>
+                    <date when="1840-04-28">28 April 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_393.xml">Hutton, William</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-06">Converted to XML by <name xml:id="hjones">Huw
+                Jones</name>
+         </change>
+            <change when="2016-05-17">Converted to TEI P5 by <name xml:id="mjhawkins">Michael
+                    Hawkins</name>
+         </change>
+        <change when="2020-08-10" type="letter" status="released">Transcription cleared for online release</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Hitcham, Bildeston, Suffolk</placeName>
+                        <date>28 April 1840</date>
+                        <salute>My dear Sir,</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I have just unpacked the two boxes of fossils which arrived on Saturday last, &amp; find them full of capital things. I shall be compelled to lay them on the shelf till my lectures are over - for on Thursday I go to Cambridge to lecture every day for a month. But on my return I will set to work immediately, &amp; if you think it possible, should certainly strive to see the 1st No. out before the meeting of the Association. You have taken for granted a great deal too much of my knowledge of paper making which is of the most general description. The specimens sent are exactly what I wish to have, but if you could possibly procure me the manufactured articles, &amp; any old implements - &amp; account to correspond with the specimens I sd. feel very grateful. I will place an x against such Nos. as I have received, &amp; you will see what are wanting to complete the series &amp; if a little memorandum were furnished for describing what each is, &amp; the manufactured specimen to accompany each I see that by help of Wasp-nests (the oldest paper manufactory) &amp; a few other items I can give them a good lecture. I mean one that will engage their attention.</p>
+                        <p>[Table indicating presence or absence of specimens, table key below]</p>
+                        <list>
+                            <item>Rope papers</item>
+                            <item>No.1. (= pieces of rope</item>
+                            <item>- 2. wanting</item>
+                            <item>- 3. packet containing No.1.A (= clay), 1 B., -3, -4, -5: powdered clays?</item>
+                            <item>Specimen of paper - marked</item>
+                            <item>Rope-paper with colouring matter</item>
+                        </list>
+                        <p>The person (a farmer &amp; coal merchant) who fetched the boxes from Ipswich was considerably horrified at what he considered a great imposition in the price of carriage. To me it seemed reasonably enough &amp; I should not have complained - but he wished me to say that he inquired of his friends &amp; of a Captain of another Hag &amp; they told him that the charge ought to have been 4/- instead  of 10/- for the 2 boxes. He bids me say that if you send any box directed in future to Messrs. Byles, I shall receive them without such expense. I beg to assure you that I am too happy to get them as you may see fit to send them, &amp; should not have thought of mentioning the subject, if my Farmer here had not expressed his wishes that I wd. do so. He was told that C. Page to whom they were consigned always made it a rule to <hi rend="underline">lay it on</hi> as he expressed himself whenever he had a box for a gentleman. Pray don't think twice about this - but I have discharged my errand.</p>
+                        <p>Believe me</p>
+                        <p>very truly yrs</p>
+                        <p>J. S. Henslow</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
