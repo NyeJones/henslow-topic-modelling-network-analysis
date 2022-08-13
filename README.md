@@ -8,3 +8,4 @@ In terms of topic modelling, we explored the efficacy of established methodologi
 
 The first notebook contains the code for the data cleaning process and some preliminary data analysis to get a general feel for the Henslow correspondence corpus. This is followed by three notebooks on the different types of topic modelling we used and a final notebook on Social Network Analysis.
 
+See Pipfile for requirements.
